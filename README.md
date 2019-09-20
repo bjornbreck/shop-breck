@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Docker Server
+
+In the project dir run
+### `docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev`
+
+Navigate to [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
